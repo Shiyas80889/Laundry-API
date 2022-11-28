@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'laundryappdb.cnlor4fmrf62.ap-south-1.rds.amazonaws.com',
-	'username' => 'laundryappuser',
+	'hostname' => 'laundry.ubuntu@ec2-65-0-103-186.ap-south-1.compute.amazonaws.com',
+	'username' => 'root',
 	'password' => 'root1234',
-	'database' => 'laundryappdb',
+	'database' => 'laundrydb',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
